@@ -1,4 +1,4 @@
-# GeoJson
+# GeoJson BBox
 
 restful API that exposes a route to get “GeoJSON features” of a location given with a geolocation box ([bounding box](https://wiki.openstreetmap.org/wiki/Bounding_Box)) as input.
 
@@ -13,7 +13,8 @@ After cloning the Repository just run npm install
 There is no need to configure an .env file or a database, this project has no need to persistence
 
 To run the application, run
-npm run dev
+npm run dev.
+
 you can import the requests collection to a client (like postman) from geoJson-bBox.postman_collection.json, It covers all use case of the api with many input possibilities
 
 ## Tests and Test Coverage:
