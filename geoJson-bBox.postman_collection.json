@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "b38d035f-f425-499c-841c-91063405b0f0",
+		"name": "geoJson bBox",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5050/api/bbox/geojson?left=0.189&bottom=51.20&right=0.136&top=222",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/api/bbox/geojson?left=0.189&bottom=51.20&right=0.136&top=222",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"bbox",
+						"geojson"
+					],
+					"query": [
+						{
+							"key": "left",
+							"value": "0.189"
+						},
+						{
+							"key": "bottom",
+							"value": "51.20"
+						},
+						{
+							"key": "right",
+							"value": "0.136"
+						},
+						{
+							"key": "top",
+							"value": "222"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5050/api/bbox/geojson?left=0.189&bottom=51.20&right=0.136&top=51.211",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/api/bbox/geojson?left=0.189&bottom=51.20&right=0.136&top=51.211",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"bbox",
+						"geojson"
+					],
+					"query": [
+						{
+							"key": "left",
+							"value": "0.189"
+						},
+						{
+							"key": "bottom",
+							"value": "51.20"
+						},
+						{
+							"key": "right",
+							"value": "0.136"
+						},
+						{
+							"key": "top",
+							"value": "51.211"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5050/api/bbox/geojson?left=-0.189&bottom=51.20&right=0.136&top=51.211",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/api/bbox/geojson?left=-0.189&bottom=51.20&right=0.136&top=51.211",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"bbox",
+						"geojson"
+					],
+					"query": [
+						{
+							"key": "left",
+							"value": "-0.189"
+						},
+						{
+							"key": "bottom",
+							"value": "51.20"
+						},
+						{
+							"key": "right",
+							"value": "0.136"
+						},
+						{
+							"key": "top",
+							"value": "51.211"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5050/api/bbox/geojson?left=-0.189&bottom=51.28&right=0.136&top=59.295",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/api/bbox/geojson?left=-0.189&bottom=51.28&right=0.136&top=59.295",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"bbox",
+						"geojson"
+					],
+					"query": [
+						{
+							"key": "left",
+							"value": "-0.189"
+						},
+						{
+							"key": "bottom",
+							"value": "51.28"
+						},
+						{
+							"key": "right",
+							"value": "0.136"
+						},
+						{
+							"key": "top",
+							"value": "59.295"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
